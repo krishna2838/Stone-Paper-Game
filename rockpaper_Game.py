@@ -38,7 +38,3 @@ def play_game():
         if play_again != "yes":
             print("Thanks for playing!")
             break
-
-# Run the game
-if __name__ == "__main__":
-    play_game()
