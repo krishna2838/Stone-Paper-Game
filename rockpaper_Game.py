@@ -34,4 +34,15 @@ def play_game():
         result = decide_winner(user_choice, computer_choice)
         print(result)
 
+    
+    while True:
+        user_choice = get_user_choice()
+        computer_choice = get_computer_choice()
+
+        print(f"\nYou chose: {user_choice}")
+        print(f"Computer chose: {computer_choice}")
+
+        result = decide_winner(user_choice, computer_choice)
+        print(result)
+
 
