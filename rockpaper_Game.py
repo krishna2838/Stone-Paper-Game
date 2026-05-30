@@ -34,11 +34,4 @@ def play_game():
         result = decide_winner(user_choice, computer_choice)
         print(result)
 
-        play_again = input("\nDo you want to play again? (yes/no): ").lower()
-        if play_again != "yes":
-            print("Thanks for playing!")
-            break
 
-
-if __name__ == "__main__":
-    play_game()
